@@ -380,18 +380,21 @@ body {
 }
 /*figura cinco*/
 .figureFive {
-  margin-left: 300px;
+  margin-left: 490px;
+  text-align: center;
 }
 .figureFive-content {
   margin-top: 40px;
-  width: 700px;
-  height: 200px;
-  color: black;
-  background-image: url(../img/imagenDeAuto.jpeg);
+  width: 220px;
+  height: 220px;
+  color: white;
+  background-color: #d67d34;
   background-repeat: no-repeat;
   position: absolute;
-  font-size: 20px;
-  padding: 40px;
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 70%;
+  justify-content: center;
 }
 .containerAboutEnd {
   width: 700px;
