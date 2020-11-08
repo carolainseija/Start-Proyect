@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.Nav-link {
+    color: white;
+    text-decoration: none;
+}
+body {
+    background-color: aqua
+   
+}
+.container-Welcom {
+    width: 1359px;
+    height: 659px;
+    background-image: url(../img/imagenDeAuto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.container-nav {
+    margin: 0px;
+    background-color: #C46210;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    
+    background-repeat: no-repeat;
+
+
+}
+.title-company {
+   
+    position: absolute;
+   padding: 18px;
+   font-size: 30px;
+   color: rgb(254, 209, 54);
+   
+}
+.Nav {
+   
+   
+    position: absolute;
+    
+    justify-content: end;
+    align-items: flex-end;
+    padding: 30px;
+    margin-right: 0px;
+
+   
+}
+.Nav-link {
+    font-size: larger;
+    padding: 7px;
+    
+    
+}
+.Nav-link:hover {
+    color: rgb(254, 209, 54);
+    text-decoration: none;
+}
