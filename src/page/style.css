@@ -1,4 +1,4 @@
-                                              /*Seccion welcom*/
+/*Seccion welcom*/
 * {
   margin: 0px;
   padding: 0px;
@@ -18,13 +18,10 @@ body {
   background-repeat: no-repeat;
 }
 .container-nav {
-  margin: 0px;
   background-color: #c46210;
   justify-content: center;
   align-items: center;
   position: relative;
-  position: fixed;
-
   background-repeat: no-repeat;
 }
 .title-company {
@@ -79,70 +76,145 @@ body {
 }
 /*Animaciones* de welcom*/
 .container-Animations {
-    display: inline-block;
-    width: 700px;
-    margin-top: 200px;
-  }
-  
-  .animation {
-    width: 70px;
-    height: 150px;
-    padding: 30px;
-    margin: 5px;
-    margin-top: 300px;
-    background-color: yellow;
-    background-image: linear-gradient(to right, ye, #C46210);
-    position: relative;
-    animation-name: animationsNoticieImportant;
-    animation-duration: 10s;
-    color: aliceblue;
-    font-size: 16px;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-fill-mode: both;
-    display: inline;
-  }
-  
-  .animations-links {
-   text-decoration: none;
-   color: white;
-  }
-  .animations-links:hover {
-    text-decoration: none;
-    color: yellow;
-    font-weight: bold;
-  }
-  
-  @keyframes animationsNoticieImportant {
-    0% {
-      background-color: rgba(255, 255, 0, 0.796);
-      left: 0px;
-      top: 0px;
-    }
-    50% {
-      background-color: #e47114;
-    }
-    100% {
-      background-color: #C46210;
-      left: 200px;
-      top: 0px;
-    }
-  }
+  display: inline-block;
+  width: 700px;
+  margin-top: 200px;
+}
 
-  @keyframes keyFrames {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+.animation {
+  width: 70px;
+  height: 150px;
+  padding: 30px;
+  margin: 5px;
+  margin-top: 300px;
+  background-color: yellow;
+  background-image: linear-gradient(to right, ye, #c46210);
+  position: relative;
+  animation-name: animationsNoticieImportant;
+  animation-duration: 10s;
+  color: aliceblue;
+  font-size: 16px;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: both;
+  display: inline;
+}
+
+.animations-links {
+  text-decoration: none;
+  color: white;
+}
+.animations-links:hover {
+  text-decoration: none;
+  color: yellow;
+  font-weight: bold;
+}
+
+@keyframes animationsNoticieImportant {
+  0% {
+    background-color: rgba(255, 255, 0, 0.796);
+    left: 0px;
+    top: 0px;
   }
-  
-  @keyframes move {
-    from {
-      background-color: rgb(255, 38, 0);
-    }
-    to {
-      background-color: rgba(45, 6, 218, 0.658);
-    }
+  50% {
+    background-color: #e47114;
   }
+  100% {
+    background-color: #c46210;
+    left: 200px;
+    top: 0px;
+  }
+}
+
+@keyframes keyFrames {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move {
+  from {
+    background-color: rgb(255, 38, 0);
+  }
+  to {
+    background-color: rgba(45, 6, 218, 0.658);
+  }
+}
+
+/*seccion servicios*/
+.container-servers {
+  height: 670px;
+}
+
+h3 {
+  background-image: url(../img/estrellas.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position: right;
+  font-weight: 900;
+  color: #c46210;
+  background-size: 300px;
+  background-position-x: end;
+  text-align: center;
+  justify-content: end;
+  padding: 30px;
+  font-family: "Anton";
+  letter-spacing: 40;
+}
+p2 {
+  font-family: "Pangolin";
+  margin-left: 460px;
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px #c46210;
+}
+.card_iconMechanical {
+  width: 350px;
+  height: 160px;
+  background-color: white;
+  background-image: url(../img/mecanico.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+.card_title {
+  color: white;
+  background-color: #c46210;
+  font-family: unset;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.card_iconAccident {
+  width: 350px;
+  height: 160px;
+  background-color: white;
+  background-image: url(../img/accidente.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+.card_iconlocksmith {
+  width: 350px;
+  height: 160px;
+  background-color: white;
+  background-image: url(../img/cerrajeriaLlave.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+.card_descriptions {
+  text-align: center;
+  list-style: none;
+  font-family: "Pangolin";
+  padding: 10px;
+  font-weight: lighter;
+}
