@@ -1,63 +1,79 @@
+<!--Welcom-->
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 .Nav-link {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 body {
-    background-color: aqua
-   
+  background-color: aqua;
 }
 .container-Welcom {
-    width: 1359px;
-    height: 659px;
-    background-image: url(../img/imagenDeAuto.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    
+  width: 1359px;
+  height: 659px;
+  background-image: url(../img/imagenDeAuto.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container-nav {
-    margin: 0px;
-    background-color: #C46210;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    position: fixed;
-    
-    background-repeat: no-repeat;
+  margin: 0px;
+  background-color: #c46210;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  position: fixed;
 
-
+  background-repeat: no-repeat;
 }
 .title-company {
-   
-    position: absolute;
-   padding: 18px;
-   font-size: 30px;
-   color: rgb(254, 209, 54);
-   
+  position: absolute;
+  padding: 18px;
+  font-size: 30px;
+  color: rgb(254, 209, 54);
+  font-family: "Anton";
+  letter-spacing: 2px;
+}
+.title-company:hover {
+  text-decoration: none;
+  color: rgb(241, 190, 3);
 }
 .Nav {
-   
-   
-    position: absolute;
-    
-    justify-content: end;
-    align-items: flex-end;
-    padding: 30px;
-    margin-right: 0px;
-
-   
+  position: absolute;
+  justify-content: end;
+  align-items: flex-end;
+  padding: 30px;
+  margin-right: 0px;
 }
 .Nav-link {
-    font-size: larger;
-    padding: 7px;
-    
-    
+  font-size: larger;
+  padding: 7px;
 }
 .Nav-link:hover {
-    color: rgb(254, 209, 54);
-    text-decoration: none;
+  color: rgb(254, 209, 54);
+  text-decoration: none;
+}
+.Nav-link:active {
+  background-color: seashell;
+}
+.container-text_welcom {
+  margin-top: 100px;
+}
+.textWeolcom {
+  font-family: "Anton";
+  font-size: 80px;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+}
+.parraphWelcom {
+  color: white;
+  font-family: "Pangolin";
+  font-size: 20px;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 480px;
 }
