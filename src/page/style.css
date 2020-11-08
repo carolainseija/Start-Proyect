@@ -148,7 +148,7 @@ body {
 .container-servers {
   height: 670px;
 }
-h3 {
+.title-section_server {
   background-image: url(../img/estrellas.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
@@ -163,7 +163,7 @@ h3 {
   font-family: "Anton";
   letter-spacing: 40;
 }
-p2 {
+.parraph-section_server {
   font-family: "Pangolin";
   margin-left: 460px;
 }
@@ -410,6 +410,94 @@ p2 {
   .timeline::after {
     left: 31px;
   }
-
-
 }
+/*seccion equipo*/
+
+.container-team {
+  height: 670px;
+}
+.title_section {
+  background-position: right;
+  font-weight: 900;
+  color: #c46210;
+  background-size: 300px;
+  background-position-x: end;
+  text-align: center;
+  justify-content: end;
+  padding: 30px;
+  font-family: "Anton";
+  letter-spacing: 40;
+}
+.parraph_section {
+  font-family: "Pangolin";
+  margin-left: 460px;
+}
+
+.card-team {
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+  margin-top: 50px;
+}
+.card-people {
+  margin-top: 30px;
+}
+.leticia {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  background-image: url(../img/atencion.jpg);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  border-color:   #c46210;
+  border-style:  solid;
+  margin: auto;
+}
+.esteban {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  background-image: url(../img/director.jpg);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  border-color:   #c46210;
+  border-style: solid;
+  margin: auto;
+}
+.alexander {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  background-image: url(../img/recursos.jpg);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  border-color:   #c46210;
+  border-style: solid;
+  margin: auto;
+}
+.card-people_name {
+  color: white;
+  color: #c46210;
+  font-family: unset;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.card-people_profession {
+  text-align: center;
+  color: rgb(158, 158, 158);
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
