@@ -7,9 +7,6 @@
   color: white;
   text-decoration: none;
 }
-body {
-  background-color: aqua;
-}
 .container-Welcom {
   width: 1359px;
   height: 659px;
@@ -18,10 +15,11 @@ body {
   background-repeat: no-repeat;
 }
 .container-nav {
-  background-color: #c46210;
+  background-color: #e47114;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed !important;
+  z-index: 30;
   background-repeat: no-repeat;
 }
 .title-company {
@@ -149,19 +147,16 @@ body {
   height: 670px;
 }
 .title-section_server {
-  background-image: url(../img/estrellas.jpg);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position: right;
+  margin-top: 30PX;
   font-weight: 900;
-  color: #c46210;
+  color: #ed8632;
   background-size: 300px;
   background-position-x: end;
   text-align: center;
   justify-content: end;
   padding: 30px;
   font-family: "Anton";
-  letter-spacing: 40;
+  letter-spacing: 10px;
 }
 .parraph-section_server {
   font-family: "Pangolin";
@@ -169,11 +164,11 @@ body {
 }
 
 .card {
-  width: 350px;
-  height: 400px;
+  width: 300px;
+  height: 350px;
   display: inline-block;
   margin-top: 50px;
-  box-shadow: 5px 5px 10px #c46210;
+  box-shadow: 5px 5px 10px #e47114;
 }
 .card_iconMechanical {
   width: 350px;
@@ -186,10 +181,11 @@ body {
 }
 .card_title {
   color: white;
-  background-color: #c46210;
+  background-color: #e9934c;
   font-family: unset;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
+  padding: 5px;
   font-weight: lighter;
 }
 .card_iconAccident {

@@ -12,17 +12,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class="container-fluid container-Welcom">
+   <div class="container-fluid container-Welcom" id="welcom">
        <head>
            <nav class="container-fluid col-12 container-nav">
               <div class="row">
-                <div class="col-8">
+                <div class="col-7">
                     <a class="title-company" href="#">confident-CAR</a>
                 </div>
-                <div class="col-4 Nav">
-                 <a class="Nav-link" href="#">SERVICIOS</a>
-                 <a class="Nav-link" href="#">NOSOTROS</a>
-                 <a class="Nav-link" href="#">EQUIPO</a>
+                <div class="col-5 Nav">
+                 <a class="Nav-link active" data-url="servicios" href="home">INICIO</a>
+                 <a class="Nav-link" data-url="about" href="about">SERVCIOS</a>
+                 <a class="Nav-link" data-url="about" href="about">NOSOTROS</a>
+                 <a class="Nav-link" data-url="team" href="team">EQUIPO</a>
                 </div>
               </div>
            </nav>
@@ -49,10 +50,10 @@
        </div>
    </div>
    <!--seccion Servicios-->
-   <div class="container-fluid container-servers">
+   <div id="server" class="container-fluid container-servers">
      <div class="row">
        <div class="col-12">
-        <h3 class="title-section_server">SERVICIOS</h3>
+        <h3 class="title-section_server">NUESTROS SERVICIOS</h3>
         <p2 class="parraph-section_server">Garantizamos que todo nuestros servicios esten 100% habilitados</p2>
        </div>
         <div class="col-12 d-flex justify-content-around">
@@ -96,7 +97,7 @@
      </div>
       </div>
   <!--seccion sobre nosotros-->
-  <div class="container-fluid container-about about">
+  <div id="about" class="container-fluid container-about about">
       <h1 class="about_title">Conoce un poco de nuestra historia</h1>
       <div class="timeline">
         <div class="containerAbout right figureOne">
@@ -133,7 +134,7 @@
       </div>
     </div>
       <!--seccion Equipo-->
-      <div class="container-fluid container-team">
+      <div  id="team" class="container-fluid container-team">
         <div class="row">
           <div class="col-12">
            <h3 class="title_section">NUESTRO EQUIPO</h3>
