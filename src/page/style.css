@@ -15,6 +15,7 @@
   background-repeat: no-repeat;
 }
 .container-nav {
+  height: 70px;
   background-color: #e47114;
   justify-content: center;
   align-items: center;
@@ -145,6 +146,7 @@
 /*seccion servicios*/
 .container-servers {
   height: 670px;
+  padding-top: 50px;
 }
 .title-section_server {
   margin-top: 30PX;
@@ -218,6 +220,7 @@
 
 .container-about {
   height: 1730px;
+  padding-top: 70px;
 }
 
 .about_title {
@@ -414,6 +417,7 @@
 
 .container-team {
   height: 670px;
+  padding-top: 50px;
 }
 .title_section {
   background-position: right;
